@@ -1,0 +1,66 @@
+* {
+  top: auto;
+  left: auto;
+  padding: 0;
+  outline: 0;
+  font-family: "dosis";
+}
+
+body {
+  background-image: url(img/gambar1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px;
+  width: 300px;
+  border-radius: 50px;
+  background-color: rgb(58, 84, 187);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.container label {
+  color: #fff;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.container button {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  margin-left: 100px;
+  padding: 5px 0;
+  border: none;
+  background-color: #fff;
+  font-size: 15px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.container input {
+  padding: 1%;
+  margin-top: 1%;
+  margin-left: 20%;
+}
